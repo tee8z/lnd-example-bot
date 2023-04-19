@@ -1,0 +1,4 @@
+lnd:
+  url: ""
+  macaroonpath: ""
+  pingfreqsecs: 30
