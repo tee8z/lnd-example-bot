@@ -16,5 +16,5 @@
 
 
 * NOTE: The interesting peice of code for connecting to lnd can be found in [/src/lnd/lnd_manager.rs](./src/lnd/lnd_manager.rs)
-The benfit of using the REST API over grpc comes down to how much of the lightning client do you actually need? If it's only a handful of endpoints, it may be easier to maintain standard REST instead of having to deal with lnd's proto and the issues that can arise with grpc in rust. This is a decision only the developer of a project can make for themselves. If your looking for a way to connect using grpc in rust, tonic_lnd is a good crate to try: [tonic_lnd](https://crates.io/crates/tonic_lnd).
+The benfit of using the REST API over grpc comes down to how much of the lightning client do you actually need? If it's only a handful of endpoints, it may be easier to maintain standard REST instead of having to deal with lnd's proto and the issues that can arise with grpc in rust. This is a decision only the developer of a project can make for themselves. If you're looking for a way to connect using grpc in rust, tonic_lnd is a good crate to try: [tonic_lnd](https://crates.io/crates/tonic_lnd).
 
